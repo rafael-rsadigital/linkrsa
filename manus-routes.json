@@ -1,1 +1,1 @@
-{"routes":[{"path":"/","title":"Estúdio Aurora"},{"path":"/admin","title":"Painel de edição"}]}
+{"routes":[{"path":"/","title":"Estúdio Aurora"},{"path":"/login","title":"Acesso administrativo"},{"path":"/admin","title":"Painel de edição"}]}

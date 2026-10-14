@@ -9,7 +9,7 @@ Esta é uma landing page estática para uma empresa local. A estrutura visual j�
 
 O projeto agora também possui um painel visual em [`/admin.html`](./admin.html). Abra `https://seu-dominio.com/admin.html` para editar a página sem abrir o código. A tela permite alterar identidade, paleta, fotos, produtos ou serviços, perguntas frequentes, contatos e destinos dos botões. A prévia aparece ao lado e o botão **Salvar alterações** grava tudo no banco do projeto.
 
-O link público fica em `https://seu-dominio.com/`. O painel não aparece no menu público; guarde o endereço administrativo e proteja-o com autenticação antes de publicar para clientes.
+O link público fica em `https://seu-dominio.com/`. O painel não aparece no menu público e está protegido por login OAuth. Somente `atendimento.rsadigital@gmail.com` tem permissão para abrir e salvar alterações; visitantes continuam acessando a página pública normalmente.
 
 ## Como personalizar
 
