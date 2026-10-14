@@ -1,1 +1,1 @@
-{"routes":[{"path":"/","title":"Estúdio Aurora"}]}
+{"routes":[{"path":"/","title":"Estúdio Aurora"},{"path":"/admin","title":"Painel de edição"}]}

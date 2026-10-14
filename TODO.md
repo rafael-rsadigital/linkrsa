@@ -1,27 +1,22 @@
 # Entregas
 
-## Landing page responsiva e mobile-first
-- [ ] Criar uma landing page responsiva inspirada apenas na hierarquia e no ritmo visual da referência, com identidade própria.
-- [ ] A página deve manter uma experiência mobile-first e usar cartões arredondados, CTA destacado e ritmo visual semelhante ao site de referência.
+## Landing page pública
+- [x] Criar uma landing page responsiva inspirada apenas na hierarquia e no ritmo visual da referência, com identidade própria.
+- [x] Disponibilizar hero, faixa promocional, CTAs, vídeo, vitrine, avaliação, seção institucional, FAQ, atendimento e rodapé.
+- [x] Manter links externos configuráveis para WhatsApp, catálogo, mapa, Instagram, telefone e avaliações.
 
-## Conteúdo editável da empresa
-- [ ] Disponibilizar hero editável com imagem, logo, nome da empresa, slogan, categorias atendidas e cidade.
-- [ ] Organizar conteúdo demonstrativo para substituição posterior sem alterar a estrutura do layout.
+## Painel visual de edição
+- [x] Criar `/admin` com navegação por Identidade, Paleta e fotos, Produtos e serviços, Links e contato, Confiança e FAQ.
+- [x] Permitir editar nome, símbolo, slogan, cidade, faixa promocional, textos, endereço, horários e telefone.
+- [x] Permitir trocar a paleta por campos de cor e o background/fotos por URL ou upload de imagem.
+- [x] Permitir adicionar, editar e remover produtos, serviços ou categorias.
+- [x] Permitir adicionar, editar e remover perguntas frequentes.
+- [x] Mostrar prévia ao vivo dentro do painel.
+- [x] Exibir e copiar o link público da página.
 
-## Chamadas e conversão
-- [ ] Incluir faixa promocional destacada com texto e chamada configuráveis.
-- [ ] Incluir três chamadas principais em cartões arredondados para WhatsApp, catálogo e localização.
-- [ ] Manter links externos configuráveis para WhatsApp, catálogo, mapa, Instagram, telefone e avaliações.
-
-## Mídia e vitrine
-- [ ] Incluir seção de vídeo com mídia ou link incorporável e conteúdo de exemplo.
-- [ ] Incluir vitrine de produtos ou categorias com cartões clicáveis, imagens, títulos e destinos configuráveis.
-
-## Confiança e relacionamento
-- [ ] Incluir prova social com nota de avaliação, estrelas, depoimento ou resumo e link configurável para avaliações.
-- [ ] Incluir bloco institucional “Sobre a empresa” com foto e texto substituíveis.
-- [ ] Incluir seção de perguntas frequentes em formato sanfona.
-
-## Atendimento e rodapé
-- [ ] Incluir bloco de atendimento com endereço, horário de funcionamento e ações configuráveis para mapa e telefone.
-- [ ] Incluir rodapé com contatos, WhatsApp, catálogo, Instagram, telefone, localização e demais redes sociais configuráveis.
+## Persistência e operação
+- [x] Habilitar servidor e banco gerenciado do projeto.
+- [x] Criar API `GET /api/site`, `PUT /api/site` e `GET /api/health`.
+- [x] Persistir a configuração em banco gerenciado com fallback local para desenvolvimento.
+- [x] Registrar a rota `/admin` no manifesto do Webdev.
+- [x] Documentar o fluxo de edição no README e manter a pasta `assets` preparada para fotos.

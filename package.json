@@ -2,7 +2,12 @@
   "name": "modasclone",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@11.25.0",
   "scripts": {
-    "start": "python3 -m http.server 3000 --bind 0.0.0.0"
+    "start": "node server.js",
+    "check": "node --check server.js && node --check admin.js && node --check script.js && node --check site-config.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.24.5"
   }
 }

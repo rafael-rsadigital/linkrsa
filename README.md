@@ -5,6 +5,12 @@ Esta é uma landing page estática para uma empresa local. A estrutura visual j�
 - `site-config.js`: nome da empresa, textos, fotos, produtos/serviços, endereço, horários, redes sociais e destinos dos botões.
 - `styles.css`: paleta, tipografia e detalhes visuais.
 
+## Editar pela tela administrativa
+
+O projeto agora também possui um painel visual em [`/admin.html`](./admin.html). Abra `https://seu-dominio.com/admin.html` para editar a página sem abrir o código. A tela permite alterar identidade, paleta, fotos, produtos ou serviços, perguntas frequentes, contatos e destinos dos botões. A prévia aparece ao lado e o botão **Salvar alterações** grava tudo no banco do projeto.
+
+O link público fica em `https://seu-dominio.com/`. O painel não aparece no menu público; guarde o endereço administrativo e proteja-o com autenticação antes de publicar para clientes.
+
 ## Como personalizar
 
 ### 1. Informações da empresa, fotos e links

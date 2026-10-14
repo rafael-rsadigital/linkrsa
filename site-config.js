@@ -1,5 +1,13 @@
 /* Edite este arquivo para personalizar a empresa. */
 window.SITE_CONFIG = {
+  colors: {
+    pink: "#e92f86",
+    "pink-deep": "#bd1468",
+    "pink-soft": "#ffe3ef",
+    yellow: "#ffd84e",
+    ink: "#231d28",
+    paper: "#fffaf7"
+  },
   brandMark: "A",
   brandKicker: "curadoria local",
   brandName: "Estúdio Aurora",
