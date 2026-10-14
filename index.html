@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e92f86" />
+    <meta name="description" content="Landing page editável para negócio local." />
+    <title>Estúdio Aurora — moda que acompanha você</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="hero" id="inicio">
+        <div class="hero__image-wrap">
+          <img class="hero__image" data-image="hero" alt="" />
+          <div class="hero__shade"></div>
+          <div class="hero__topline">
+            <span class="eyebrow" data-field="heroEyebrow"></span>
+            <span class="eyebrow-dot">•</span>
+            <span class="eyebrow" data-field="heroCity"></span>
+          </div>
+          <div class="hero__content">
+            <div class="brand-mark" data-field="brandMark">A</div>
+            <p class="brand-kicker" data-field="brandKicker"></p>
+            <h1 data-field="brandName"></h1>
+            <p class="hero__tagline" data-field="tagline"></p>
+            <div class="hero__chips" data-list="heroCategories"></div>
+            <a class="location-pill" data-link="location" href="#atendimento">
+              <span class="pin-icon" aria-hidden="true">⌖</span>
+              <span data-field="cityState"></span>
+              <span class="arrow-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="promo-ticker" aria-label="Avisos">
+          <div class="ticker-track">
+            <span data-field="promoText"></span><b>✦</b><span data-field="promoText"></span><b>✦</b><span data-field="promoText"></span><b>✦</b>
+          </div>
+        </section>
+
+        <section class="quick-actions section-pad" aria-label="Ações rápidas">
+          <a class="action-card action-card--primary" data-link="whatsapp" href="#">
+            <span class="action-icon action-icon--whatsapp" aria-hidden="true">◔</span>
+            <span class="action-copy"><small data-field="whatsappLabel"></small><strong data-field="whatsappTitle"></strong><em data-field="whatsappDescription"></em></span>
+            <span class="action-arrow" aria-hidden="true">›</span>
+          </a>
+          <a class="action-card" data-link="catalog" href="#">
+            <span class="action-icon action-icon--catalog" aria-hidden="true">▣</span>
+            <span class="action-copy"><small data-field="catalogLabel"></small><strong data-field="catalogActionTitle"></strong><em data-field="catalogDescription"></em></span>
+            <span class="action-arrow" aria-hidden="true">›</span>
+          </a>
+          <a class="action-card" data-link="map" href="#">
+            <span class="action-icon action-icon--map" aria-hidden="true">⌖</span>
+            <span class="action-copy"><small data-field="mapLabel"></small><strong data-field="mapTitle"></strong><em data-field="mapDescription"></em></span>
+            <span class="action-arrow" aria-hidden="true">›</span>
+          </a>
+        </section>
+
+        <section class="video-section section-pad" id="historia">
+          <div class="section-heading">
+            <span class="section-kicker">por dentro</span>
+            <h2 data-field="videoTitle"></h2>
+            <p data-field="videoDescription"></p>
+          </div>
+          <a class="video-card" data-link="video" href="#" aria-label="Assistir ao vídeo">
+            <img data-image="video" alt="Vídeo de apresentação da empresa" />
+            <span class="video-card__overlay"></span>
+            <span class="play-button">▶</span>
+            <span class="video-card__caption"><strong data-field="videoCaption"></strong><small data-field="videoSubcaption"></small></span>
+          </a>
+        </section>
+
+        <section class="catalog-section section-pad" id="catalogo">
+          <div class="section-heading section-heading--row">
+            <div><span class="section-kicker">do seu jeito</span><h2 data-field="catalogSectionTitle"></h2></div>
+            <span class="section-count" data-field="catalogCount"></span>
+          </div>
+          <p class="section-intro" data-field="catalogSectionDescription"></p>
+          <div class="category-list" data-list="categories"></div>
+        </section>
+
+        <section class="review-section section-pad">
+          <div class="review-card">
+            <div class="review-card__stars" aria-label="Avaliação de cinco estrelas">★★★★★</div>
+            <div class="review-card__rating"><strong data-field="reviewScore"></strong><span data-field="reviewSource"></span></div>
+            <p data-field="reviewQuote"></p>
+            <a class="text-link" data-link="review" href="#"><span data-field="reviewCta"></span> <b>↗</b></a>
+          </div>
+        </section>
+
+        <section class="about-section section-pad" id="sobre">
+          <div class="about-grid">
+            <div class="about-media"><img data-image="about" alt="Interior da empresa" /><span class="about-stamp">feito<br />com<br /><b>carinho</b></span></div>
+            <div class="about-copy"><span class="section-kicker" data-field="aboutKicker"></span><h2 data-field="aboutTitle"></h2><p data-field="aboutText"></p><a class="outline-button" data-link="whatsapp" href="#"><span data-field="aboutCta"></span><b>↗</b></a></div>
+          </div>
+        </section>
+
+        <section class="faq-section section-pad" id="faq">
+          <div class="section-heading"><span class="section-kicker">tire suas dúvidas</span><h2 data-field="faqTitle"></h2></div>
+          <div class="faq-list" data-list="faqs"></div>
+        </section>
+
+        <section class="contact-section section-pad" id="atendimento">
+          <div class="contact-card">
+            <div class="contact-card__header"><span class="section-kicker">chegue mais perto</span><h2 data-field="contactTitle"></h2></div>
+            <div class="contact-details">
+              <div class="contact-detail"><span class="detail-icon">⌖</span><div><small>onde estamos</small><strong data-field="address"></strong><a data-link="map" href="#">abrir no mapa ↗</a></div></div>
+              <div class="contact-detail"><span class="detail-icon">◷</span><div><small>horário de atendimento</small><strong class="hours" data-field="hours"></strong></div></div>
+              <div class="contact-detail"><span class="detail-icon">◔</span><div><small>fale com a gente</small><strong data-field="phone"></strong><a data-link="phone" href="#">ligar agora ↗</a></div></div>
+            </div>
+            <a class="full-button" data-link="whatsapp" href="#"><span data-field="contactCta"></span><b>↗</b></a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer section-pad">
+        <div class="footer__top"><div><div class="footer-mark" data-field="brandMark"></div><h2 data-field="brandName"></h2><p data-field="tagline"></p></div><div class="footer-socials"><a data-link="instagram" href="#" aria-label="Instagram">ig</a><a data-link="whatsapp" href="#" aria-label="WhatsApp">wa</a><a data-link="review" href="#" aria-label="Avaliações">★</a></div></div>
+        <div class="footer__links"><a href="#inicio">início</a><a href="#catalogo">catálogo</a><a href="#sobre">sobre</a><a href="#faq">dúvidas</a><a href="#atendimento">contato</a></div>
+        <div class="footer__bottom"><span>© <span data-field="year"></span> <span data-field="brandName"></span></span><span>feito para ser editado</span></div>
+      </footer>
+    </div>
+    <a class="floating-whatsapp" data-link="whatsapp" href="#" aria-label="Chamar no WhatsApp">◔</a>
+    <script src="/script.js"></script>
+  </body>
+</html>
